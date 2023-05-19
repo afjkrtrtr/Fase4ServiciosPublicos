@@ -1,0 +1,10 @@
+package interfaz;
+
+import vista.MenuPrincipal;
+
+class Main$1 implements Runnable {
+    @Override
+    public void run() {
+        new MenuPrincipal().setVisible(true);
+    }
+}
